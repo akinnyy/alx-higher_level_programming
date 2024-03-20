@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-if len(argv) == 1:
-    print ("{} argument:\n".format (len(argv))
-elif len(argv) == 0:
-    print ("{} argument.".format (len(argv))
+import sys
+if len(sys.argv) - 1 == 1:
+    print("{} argument:\n".format(len(sys.argv) - 1))
+elif len(sys.argv) -1 == 0:
+    print("{} arguments.".format(len(sys.argv) - 1))
 else:
-    for i in range(len(argv)+1):
-    print ("{} argument:\n".format ((argv[i-1]))
+     print("{} arguments:".format(len(sys.argv) - 1))
+     for i in range(len(sys.argv) - 1):
+         print("{}: {}".format(i+1, (sys.argv[i+1])))

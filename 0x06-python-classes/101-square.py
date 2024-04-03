@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 101-square.py
-
 """Define a class Square."""
 
 
@@ -70,4 +69,3 @@ class Square:
             if i != self.__size - 1:
                 print("")
         return ("")
-

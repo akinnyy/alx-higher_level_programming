@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 # 3-safe_print_division.py
 
@@ -11,4 +10,3 @@ def safe_print_division(a, b):
     finally:
         print("Inside result: {}".format(div))
     return (div)
-

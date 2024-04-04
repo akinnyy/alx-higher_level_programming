@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 # 5-square.py
 
@@ -40,4 +39,3 @@ class Square:
             print("")
         if self.__size == 0:
             print("")
-
